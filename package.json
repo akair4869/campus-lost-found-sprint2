@@ -1,0 +1,33 @@
+{
+  "name": "campus-lost-found",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Campus Lost & Found class project with shared SQLite storage and ownership workflows",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "node scripts/demo.mjs",
+    "dev": "node scripts/demo.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/server.test.mjs tests/features.test.mjs"
+  },
+  "dependencies": {
+    "jsqr": "1.4.0",
+    "lucide-react": "1.31.0",
+    "qrcode": "1.5.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/qrcode": "1.5.5",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "esbuild": "0.28.0",
+    "typescript": "5.9.3"
+  }
+}
